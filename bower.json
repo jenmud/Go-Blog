@@ -1,0 +1,22 @@
+{
+  "name": "GoLang",
+  "authors": [
+    "Adrien Barret <adrienbarret@icloud.com>"
+  ],
+  "dependencies":{
+    "bootstrap": "3.1.0",
+    "jquery":"2.1.0"
+  },
+  "description": "Go Lang blog for Logibec demo",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
