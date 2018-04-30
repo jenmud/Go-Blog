@@ -9,14 +9,13 @@ import (
 func index(w http.ResponseWriter, r *http.Request) {
 	// fmt.Fprintf(w, "Hello World")
 	t, err := template.ParseFiles(
-		"./views/index.html",
-		"./views/header.html",
-		"./views/footer.html",
+		"views/index.html",
+		"views/header.html",
+		"views/footer.html",
 	)
 	if err != nil {
 		fmt.Fprintf(w, err.Error())
 	}
-	return
 	t.ExecuteTemplate(w, "index", nil)
 }
 
